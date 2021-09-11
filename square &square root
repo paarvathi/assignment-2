@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class Main
+{
+  public static void main( String []args)
+  {
+     Double  num ,  i ;
+     Scanner sc= new Scanner(System.in);
+     System.out.print("Enter a number :");
+     num=sc.nextDouble();
+     Double sqr = (num*num) ;
+     System.out.println("Square of "+num+"is :"+sqr);
+     Double sqrt = num/2 ;
+     do{
+         i=sqrt ;
+         sqrt = (i+(num/2))/2;
+    }while((i-sqrt)!=0);
+    System.out.println("Square root of"+num+"is:"+sqrt);
+
+}  
+}
