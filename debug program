@@ -1,0 +1,17 @@
+public class Kcg
+
+{
+
+public static void main(String []agrs)
+
+{
+
+char a='s';
+
+int s=95;
+
+a=(char)s;
+
+}
+
+}
